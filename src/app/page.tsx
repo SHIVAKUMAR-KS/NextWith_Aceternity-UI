@@ -1,6 +1,7 @@
 import FeaturesCourses from "@/components/FeaturesCourses";
 import HeroSection from "@/components/HeroSection";
-import WhyChooseUs from "@/components/ui/WhyChooseUs";
+import TestimonialCards from "@/components/TestimonialCards";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <FeaturesCourses/>
       <WhyChooseUs/>
+      <TestimonialCards/>
 
     </main>
   );
