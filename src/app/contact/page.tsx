@@ -18,7 +18,7 @@ function Page() {
               className="appearance-none block w-full bg-gray-800 text-white border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-700"
               id="grid-name"
               type="text"
-              placeholder="John Doe"
+              placeholder="John Do"
             />
           </div>
           <div className="w-full px-3">
