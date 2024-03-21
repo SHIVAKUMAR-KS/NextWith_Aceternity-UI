@@ -5,6 +5,7 @@ import TestimonialCards from "@/components/TestimonialCards";
 import UpcomingWebinar from "@/components/UpcomingWebinar";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Footer from '@/components/Footer';
+import { MacbookScroll } from "@/components/ui/macbook-scroll";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <UpcomingWebinar/>
       <Instructors/>
       <Footer />
+      <MacbookScroll/>
 
     </main>
   );

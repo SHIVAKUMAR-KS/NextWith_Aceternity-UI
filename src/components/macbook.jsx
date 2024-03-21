@@ -1,8 +1,8 @@
 import React from "react";
-import { MacbookScroll } from "@/components/ui/macbook-scroll";
+import { MacbookScroll } from "./ui/macbook-scroll";
 import Link from "next/link";
 
-const page = () => {
+const macbook = () => {
     return (
         <div className="overflow-visible dark:bg-[#0B0B0F] bg-white w-full ">
           <MacbookScroll
@@ -65,4 +65,4 @@ const page = () => {
       );
 }
 
-export default page
+export default macbook
